@@ -1,0 +1,13 @@
+.picture-lemon-b {
+    width: 30vw;
+    position: absolute;
+    right: 0px;
+    z-index: 5;
+    top: 100px
+}
+
+@include breakpint(tablet){
+    .picture-lemon-b {
+        display: none;
+    }
+}

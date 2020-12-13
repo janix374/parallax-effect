@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+
+//for card in LemonSectionBenefits component
+.card-decoration {
+    &:hover {
+        box-shadow: 0 8px 16px 0  $lemon-top-title-color !important;
+    }
+}
