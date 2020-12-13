@@ -1,3 +1,8 @@
+# Example of Responsive web design 
+
+SASS, grid, flax, react-icons, react-syntax-highlighter, node-sass.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
