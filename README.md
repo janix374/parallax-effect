@@ -1,6 +1,9 @@
 # Example of Responsive web design 
 
-SASS, grid, flax, react-icons, react-syntax-highlighter, node-sass.
+Parralax effect project in react. 
+a website about lemon water and its benefits.
+
+parralax-effect, react, sass/scss, svg.
 
 
 # Getting Started with Create React App
