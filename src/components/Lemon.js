@@ -20,7 +20,6 @@ const Lemon = () => {
            <LemonSectionBenefits offsetY={offsetY}/>
            <LemonSectionBest offsetY={offsetY}/>
            <LemonSectionMake offsetY={offsetY}/>
-           {/* <LemonPics /> */}
            <LemonBottom />
         </div>  
     )
