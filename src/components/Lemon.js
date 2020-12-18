@@ -4,7 +4,6 @@ import LemonSectionBenefits from './lemonwaterpage/LemonSectionBenefits';
 import LemonSectionBest from './lemonwaterpage/LemonSectionBest';
 import LemonSectionMake from './lemonwaterpage/LemonSectionMake';
 import LemonBottom from './lemonwaterpage/LemonBottom';
-// import LemonPics from './lemonwaterpage/LemonPics';
 
 const Lemon = () => {
     const [offsetY, setOffsetY] = useState(0);
