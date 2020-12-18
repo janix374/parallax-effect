@@ -1,9 +1,9 @@
 # Example of Responsive web design 
 
-Parralax effect project in react. 
+Parallax effect project in react. 
 a website about lemon water and its benefits.
 
-parralax-effect, react, sass/scss, svg.
+parallax-effect, react, sass/scss, svg.
 
 
 # Getting Started with Create React App
