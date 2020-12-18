@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/janix374/parallax-effect/static/css/main.6a8f5d37.chunk.css",
-    "main.js": "/janix374/parallax-effect/static/js/main.ff729aa4.chunk.js",
-    "main.js.map": "/janix374/parallax-effect/static/js/main.ff729aa4.chunk.js.map",
-    "runtime-main.js": "/janix374/parallax-effect/static/js/runtime-main.ad35a8f8.js",
-    "runtime-main.js.map": "/janix374/parallax-effect/static/js/runtime-main.ad35a8f8.js.map",
-    "static/js/2.e10ab2f7.chunk.js": "/janix374/parallax-effect/static/js/2.e10ab2f7.chunk.js",
-    "static/js/2.e10ab2f7.chunk.js.map": "/janix374/parallax-effect/static/js/2.e10ab2f7.chunk.js.map",
-    "index.html": "/janix374/parallax-effect/index.html",
-    "static/css/main.6a8f5d37.chunk.css.map": "/janix374/parallax-effect/static/css/main.6a8f5d37.chunk.css.map",
-    "static/js/2.e10ab2f7.chunk.js.LICENSE.txt": "/janix374/parallax-effect/static/js/2.e10ab2f7.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/janix374/parallax-effect/static/media/lemun1.e2bfdd26.jpg",
-    "static/media/lemon3.9a751e21.jpg": "/janix374/parallax-effect/static/media/lemon3.9a751e21.jpg"
+    "main.css": "/parallax-effect/static/css/main.40bdfdc8.chunk.css",
+    "main.js": "/parallax-effect/static/js/main.ff729aa4.chunk.js",
+    "main.js.map": "/parallax-effect/static/js/main.ff729aa4.chunk.js.map",
+    "runtime-main.js": "/parallax-effect/static/js/runtime-main.c6a2de97.js",
+    "runtime-main.js.map": "/parallax-effect/static/js/runtime-main.c6a2de97.js.map",
+    "static/js/2.e10ab2f7.chunk.js": "/parallax-effect/static/js/2.e10ab2f7.chunk.js",
+    "static/js/2.e10ab2f7.chunk.js.map": "/parallax-effect/static/js/2.e10ab2f7.chunk.js.map",
+    "index.html": "/parallax-effect/index.html",
+    "static/css/main.40bdfdc8.chunk.css.map": "/parallax-effect/static/css/main.40bdfdc8.chunk.css.map",
+    "static/js/2.e10ab2f7.chunk.js.LICENSE.txt": "/parallax-effect/static/js/2.e10ab2f7.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/parallax-effect/static/media/lemun1.e2bfdd26.jpg",
+    "static/media/lemon3.9a751e21.jpg": "/parallax-effect/static/media/lemon3.9a751e21.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad35a8f8.js",
+    "static/js/runtime-main.c6a2de97.js",
     "static/js/2.e10ab2f7.chunk.js",
-    "static/css/main.6a8f5d37.chunk.css",
+    "static/css/main.40bdfdc8.chunk.css",
     "static/js/main.ff729aa4.chunk.js"
   ]
 }
