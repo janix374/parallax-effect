@@ -6,23 +6,23 @@ import LemonSectionMake from './lemonwaterpage/LemonSectionMake';
 import LemonBottom from './lemonwaterpage/LemonBottom';
 
 const Lemon = () => {
-    const [offsetY, setOffsetY] = useState(0);
-    const hendleScroll = () => setOffsetY(window.pageYOffset);
+	const [offsetY, setOffsetY] = useState(0);
+	const hendleScroll = () => setOffsetY(window.pageYOffset);
 
-    useEffect(() => {
-        window.addEventListener('scroll', hendleScroll);
-        return (() => window.removeEventListener('scroll', hendleScroll));
-    }, []);
+	useEffect(() => {
+		window.addEventListener('scroll', hendleScroll);
+		return () => window.removeEventListener('scroll', hendleScroll);
+	}, []);
 
-    return (
-        <div className="lemon"> 
-           <LemonTop offsetY={offsetY} />
-           <LemonSectionBenefits offsetY={offsetY}/>
-           <LemonSectionBest offsetY={offsetY}/>
-           <LemonSectionMake offsetY={offsetY}/>
-           <LemonBottom />
-        </div>  
-    )
-}
+	return (
+		<div className='lemon'>
+			<LemonTop offsetY={offsetY} />
+			<LemonSectionBenefits offsetY={offsetY} />
+			<LemonSectionBest offsetY={offsetY} />
+			<LemonSectionMake offsetY={offsetY} />
+			<LemonBottom />
+		</div>
+	);
+};
 
 export default Lemon;
