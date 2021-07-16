@@ -13,15 +13,10 @@
 @import 'layout/navigation';
 @import 'layout/footer';
 
-@import 'pages/lemon.scss';
-@import 'pages/lemonwater/lemontop.scss';
-@import 'pages/lemonwater/lemonsectionbenefits.scss';
-@import 'pages/lemonwater/lemonsectionbest.scss';
-@import 'pages/lemonwater/lemonsectionmake.scss';
-@import 'pages/lemonwater/component/picturelemona.scss';
-@import 'pages/lemonwater/component/picturelemonb.scss';
-@import 'pages/lemonwater/lemonpisc.scss';
-@import 'pages/lemonwater/lemonbottom.scss';
+@import './parallaxcomponent/sky.scss';
+@import './parallaxcomponent/airship.scss';
+@import './parallaxcomponent/sections.scss';
+@import './parallaxcomponent/clouds.scss';
 
 
 

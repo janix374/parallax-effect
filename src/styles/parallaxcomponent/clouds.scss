@@ -1,0 +1,40 @@
+// cumulus
+
+.cumulus-cloud {
+    position: absolute;
+
+    #cumulus-one-shadow {
+        width: 500px;
+        height: 275px;
+        border-radius: 50%;
+        filter: url(#filter1);
+        box-shadow: 300px 300px 50px 0px #fff;
+    }
+
+    #cumulus-two-shadow {
+        width: 400px;
+        height: 205px;
+        border-radius: 50%;
+        filter: url(#filter2);
+        box-shadow: 300px 300px 50px 0px #fff;
+    }
+
+    #cumulus-three-shadow {
+        width: 700px;
+        height: 400px;
+        border-radius: 50%;
+        filter: url(#filter3);
+        box-shadow: 400px 400px 50px 0px #fff;
+    }
+
+    #cumulus-four-shadow {
+        width: 300px;
+        height: 200px;
+        border-radius: 50%;
+        filter: url(#filter4);
+        box-shadow: 300px 300px 50px 0px #fff;
+    }
+
+
+}
+  

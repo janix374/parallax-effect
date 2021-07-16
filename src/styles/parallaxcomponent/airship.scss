@@ -1,0 +1,23 @@
+.airship {
+    max-width: 600px;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    z-index: 10;
+
+    img {
+        width: 100%;
+        height: auto;
+        animation-name: swinging;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes swinging {
+        0%  {transform: rotate(0deg);}
+        20% {transform: rotate(2deg);}
+        80% {transform: rotate(-2deg);}
+        100% {transform: rotate(0deg);}
+      }
+}

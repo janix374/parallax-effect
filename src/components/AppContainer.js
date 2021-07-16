@@ -1,10 +1,10 @@
 import React from 'react';
-import Lemon from './Lemon';
+import Sky from './mainfile/Sky';
 
 const AppContainer = () => {
 	return (
 		<div>
-			<Lemon />
+			<Sky />
 		</div>
 	);
 };
