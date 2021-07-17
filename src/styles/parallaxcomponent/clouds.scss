@@ -2,39 +2,63 @@
 
 .cumulus-cloud {
     position: absolute;
+    width: 100%;
+    z-index: 5;
 
     #cumulus-one-shadow {
-        width: 500px;
-        height: 275px;
+        width: 30%;
+        height: 300px;
         border-radius: 50%;
         filter: url(#filter1);
         box-shadow: 300px 300px 50px 0px #fff;
+        z-index: 5;
     }
 
     #cumulus-two-shadow {
-        width: 400px;
-        height: 205px;
+        width: 40%;
+        height: 300px;
         border-radius: 50%;
         filter: url(#filter2);
         box-shadow: 300px 300px 50px 0px #fff;
     }
 
     #cumulus-three-shadow {
-        width: 700px;
-        height: 400px;
+        width: 70%;
+        height: 450px;
         border-radius: 50%;
         filter: url(#filter3);
-        box-shadow: 400px 400px 50px 0px #fff;
+        box-shadow: 450px 450px 50px 0px #fff;
     }
 
     #cumulus-four-shadow {
-        width: 300px;
-        height: 200px;
+        width: 35%;
+        height: 300px;
         border-radius: 50%;
         filter: url(#filter4);
         box-shadow: 300px 300px 50px 0px #fff;
     }
 
+    #cumulus-five-shadow {
+        width: 90%;
+        height: 200px;
+        border-radius: 50%;
+        filter: url(#filter5);
+        box-shadow: 500px 500px 50px 0px #fff;
+    }
 
 }
   
+
+.nimbostratus-cloud {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+
+    #nimbostratus-one-shadow {
+        width: 80%;
+        height: 500px;
+        border-radius: 50%;
+        filter: url(#nimbofilter1);
+        box-shadow: 500px 500px 50px 10px #eeeeee, 600px 600px 50px 10px #dddddd;
+    }
+}

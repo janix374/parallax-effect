@@ -1,17 +1,68 @@
+// section-one
 .section-one {
     width: 100%;
     height: 5000px;
     background-color: inherit;
     position: relative;
     overflow: hidden;
-    z-index: 5;
+    z-index: 1;
+
+    .section-one-text {
+        width: 50%;
+        margin: 400px auto;
+        z-index: 10;
+        position: relative;
+
+        .section-one-text-title {
+            margin-bottom: 500px;
+            text-align: center;
+        }
+
+        .section-one-text-about {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            p {
+                margin-top: 50px;
+                text-align: justify;
+            }
+        }
+
+      
+    }
+
+    .section-one-animations {
+        z-index: 5;
+    }
 }
 
+// section-two
 .section-two {
     width: 100%;
-    height: 5000px;
+    height: 10000px;
     background-color: inherit;
     position: relative;
     overflow: hidden;
     z-index: 15;
+}
+
+// section-three
+.section-three {
+    width: 100%;
+    height: 15000px;
+    background-color: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+}
+
+
+// section-four
+.section-four {
+    width: 100%;
+    height: 10000px;
+    background-color: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 15;
+    
 }

@@ -11,52 +11,78 @@ import PropTypes from 'prop-types';
 function SectionTwo({ offsetY }) {
 	const sectionTwoRef = useRef();
 	const rightMove = offsetY;
-	if (sectionTwoRef.current) {
-		console.log(sectionTwoRef.current.offsetTop);
-	}
-
-	// random cumulus create function
+	// if (sectionTwoRef.current) {
+	// 	console.log(sectionTwoRef.current.offsetTop);
+	// }
 
 	return (
 		<section className='section-two' ref={sectionTwoRef}>
-			<Cumulus top={200} left={-300}>
+			<Cumulus top={2} left={-20}>
 				<CumulusOne />
 			</Cumulus>
 
-			<Cumulus top={300} left={500}>
+			<Cumulus top={3} left={40}>
 				<CumulusOne />
 			</Cumulus>
 
-			<Cumulus top={700} left={120}>
+			<Cumulus top={7} left={15}>
 				<CumulusTwo />
 			</Cumulus>
 
-			<Cumulus top={1000} left={-500}>
+			<Cumulus top={15} left={-30}>
 				<CumulusOne />
 			</Cumulus>
 
-			<Cumulus top={1300} left={-300}>
+			<Cumulus top={19} left={-15}>
 				<CumulusOne />
 			</Cumulus>
 
-			<Cumulus top={2000} left={400}>
+			<Cumulus top={24} left={20}>
 				<CumulusThree />
 			</Cumulus>
 
-			<Cumulus top={2300} left={-250}>
+			<Cumulus top={27} left={-17}>
 				<CumulusTwo />
 			</Cumulus>
 
-			<Cumulus top={2700} left={240}>
+			<Cumulus top={30} left={17}>
 				<CumulusFour />
 			</Cumulus>
 
-			<Cumulus top={3000} left={-250}>
+			<Cumulus top={35} left={-18}>
 				<CumulusThree />
 			</Cumulus>
 
-			<Cumulus top={4000} left={540}>
+			<Cumulus top={41} left={36}>
 				<CumulusThree />
+			</Cumulus>
+
+			<Cumulus top={47} left={23}>
+				<CumulusFour />
+			</Cumulus>
+
+			<Cumulus top={52} left={-10}>
+				<CumulusThree />
+			</Cumulus>
+
+			<Cumulus top={67} left={18}>
+				<CumulusTwo />
+			</Cumulus>
+
+			<Cumulus top={71} left={43}>
+				<CumulusTwo />
+			</Cumulus>
+
+			<Cumulus top={83} left={-20}>
+				<CumulusTwo />
+			</Cumulus>
+
+			<Cumulus top={90} left={-19}>
+				<CumulusOne />
+			</Cumulus>
+
+			<Cumulus top={9800} left={300}>
+				<CumulusFour />
 			</Cumulus>
 		</section>
 	);

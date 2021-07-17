@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Cumulus = ({ top, left, children }) => {
+const Nimbostratus = ({ top, left, children }) => {
 	return (
 		<div
-			className='cumulus-cloud'
+			className='nimbostratus-cloud'
 			style={{
 				top: `${top}%`,
 				left: `${left}%`,
@@ -15,10 +15,10 @@ const Cumulus = ({ top, left, children }) => {
 	);
 };
 
-Cumulus.propTypes = {
+Nimbostratus.propTypes = {
 	top: PropTypes.number,
 	left: PropTypes.number,
 	children: PropTypes.any,
 };
 
-export default Cumulus;
+export default Nimbostratus;
